@@ -1,0 +1,53 @@
+name: whatsapp_contact_saver
+description: WhatsApp contact extraction and management tool for Turkish users
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI Components
+  cupertino_icons: ^1.0.6
+  material_design_icons_flutter: ^7.0.7296
+  
+  # Contact Management
+  contacts_service: ^0.6.3
+  permission_handler: ^11.0.1
+  
+  # File & Storage
+  path_provider: ^2.1.1
+  sqflite: ^2.3.0
+  shared_preferences: ^2.2.2
+  
+  # WhatsApp Integration
+  url_launcher: ^6.2.1
+  device_apps: ^2.2.0
+  
+  # Utilities
+  intl: ^0.18.1
+  random_string: ^2.3.1
+  
+  # Phone Number Processing
+  libphonenumber: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
