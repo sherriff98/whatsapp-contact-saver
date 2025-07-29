@@ -1,25 +1,24 @@
-name: whatsapp_contact_manager
-description: WhatsApp Contact Manager
+name: whatsapp_contact_saver
+description: WhatsApp contact extraction and management tool
 publish_to: 'none'
-
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.19.0 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  contacts_service: ^0.6.3
-  permission_handler: ^10.4.3
-  device_apps: ^2.2.0
-  path_provider: ^2.1.1
   cupertino_icons: ^1.0.2
+  permission_handler: ^11.0.1
+  contacts_service: ^0.6.3
+  path_provider: ^2.1.1
+  sqflite: ^2.3.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
